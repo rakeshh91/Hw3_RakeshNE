@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hw3_RakeshNE</string>
+    <string name="action_settings">Cover Page</string>
+    <string name="coverPageName">Cover Page</string>
+    <string name="viewPagerName">Movies</string>
+    <string name="masterDetailName">Movies List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

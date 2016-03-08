@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentButtons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".CoverPageFragmentActivity"
+    android:padding="5dp"
+    android:showDividers="end"
+    android:dividerPadding="2dp">
+
+    <Button
+        android:id="@+id/aboutMeButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="About me"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+
+        android:elegantTextHeight="false"
+        android:focusable="false"
+        android:textSize="20dp"
+        android:textStyle="normal|bold"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/task1Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Task1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:id="@+id/task2Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:text="Task2"
+        android:background="@drawable/ripple"
+        android:focusable="false"
+        android:focusableInTouchMode="true"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+</LinearLayout>

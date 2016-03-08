@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMasterContainer"
+    android:orientation="vertical"
+    tools:context=".Master_Detail_Fragment">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 1"
+        android:id="@+id/movie1Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 2"
+        android:id="@+id/movie2Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 3"
+        android:id="@+id/movie3Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie 4"
+        android:id="@+id/movie4Button"
+        android:layout_weight="1"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

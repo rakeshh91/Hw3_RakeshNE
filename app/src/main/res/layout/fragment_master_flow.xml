@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/task3ButtonsLayout"
+    tools:context="com.rakesh_ap2016.hw3_rakeshne.MasterFlowFragmentActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avatar"
+        android:id="@+id/movie1Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titanic"
+        android:id="@+id/movie2Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Avengers"
+        android:id="@+id/movie3Button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Dark Knight"
+        android:id="@+id/movie4Button"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Star Wars I"
+        android:id="@+id/movie5Button"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:background="@drawable/ripple"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:textStyle="normal|bold"
+        android:textSize="20sp" />
+</LinearLayout>
